@@ -11,7 +11,8 @@ class Language_Link
 		"fr" => array( "native" => "Français", "english" => "French"),
 		"ja" => array( "native" => "日本語", "english" => "Japanese"),
 		"pt" => array( "native" => "Português", "english" => "Portuguese"),
-		"ru" => array( "native" => "русском", "english" => "Russian")
+		"ru" => array( "native" => "русском", "english" => "Russian"),
+		"pl" => array( "native" => "język polski", "english" => "Polish")
 	);
 
 	public function __construct() {
