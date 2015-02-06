@@ -15,9 +15,16 @@
                 e.attr('for', e.attr('for').replace('0', count));
             });
 
+            newElement.find('select').each(function () {
+                var e = jQuery(this);
+                e.attr('name', e.attr('name').replace(0, count));
+                e.attr('id', e.attr('id').replace(0, count));
+            });
+
             newElement.find('input.text').each(function () {
                 var e = jQuery(this);
                 e.attr('name', e.attr('name').replace('0', count));
+                e.attr('id', e.attr('id').replace('0', count));
             });
 
             newElement.find('.remove-language').click(obj.removeLink);
